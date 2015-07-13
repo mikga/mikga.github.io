@@ -1,0 +1,154 @@
+body {
+	font-family: Helvetica, sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #F6F6F6;
+}
+
+main {
+	width: 1200px;
+	margin: 20px auto 0;
+	background-color: #F6F6F6;
+}
+
+footer {
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #F6F6F6;
+}
+
+h1 {
+	font-family: Futura, Helvetica, sans-serif;
+	margin: 0 0 0 20px;
+	padding: 20px 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+div#main_wrapper {
+	width: 1180px;
+	margin: 20px;
+}
+
+ul#galleries {
+	margin: 0;
+	padding: 20px 0 0;
+}
+
+li.gallery {
+	position: relative;
+	margin: 0;
+	min-height: 200px;
+}
+
+span.gallery_name {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 10;
+}
+
+span.gallery_name a {
+	color: #ffffff;
+	font-weight: normal;
+	text-shadow:
+     -1px -1px 0 #222,  
+      1px -1px 0 #222,
+     -1px 1px  0 #222,
+      1px 1px  0 #222;
+    font-size: 16px;
+}
+
+
+div.gallery_image {
+	width: 240px;
+	height: 160px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+img {
+	max-width: 240px;
+	max-height: auto;
+}
+
+ul.exhibitions {
+	position: relative;
+	margin: 0 0 20px 260px;
+}
+
+li.exhibition {
+	margin: 0 0 5px 0;
+}
+
+span.exhibition_name a {
+	color: #224422;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+span.exhibition_name a:hover {
+	color: #CC4422;
+	border-bottom: 1px solid #FFD6D6;
+}
+
+span.start_date {
+	font-weight: 100;
+	font-size: 12px;
+	/*border-bottom: 1px solid #D6D6D6;*/
+}
+
+span.start_date:before {
+	content: " \25C7  ";
+}
+
+span.end_date {
+	font-weight: 100;
+	font-size: 12px;
+	/*border-bottom: 1px solid #D6D6D6;*/
+}
+
+span.end_date:before {
+	content: " \25BB  "; 
+}
+
+ul#dates {
+	display: none;
+}
+
+div#contact {
+	padding: 20px;
+}
+
+div#contact a {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	color: #224422;
+
+}
