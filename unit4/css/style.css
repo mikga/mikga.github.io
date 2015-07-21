@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:900, 400);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:900, 700, 400);
+@import url(http://fonts.googleapis.com/css?family=Quando);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300italic);
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #3C3F38;	
+	font-weight: normal;
+}
+
+body {
+	background-color: #B2BDAB;
+	font-family: sans-serif;
+}
+
+header {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #EDF0F2;
+}
+
+main {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 2em 0 0 0;
+	/*background-color: #EDF0F2;*/
+}
+
+footer {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;	
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #EDF0F2;
+	padding: 1em 0;
+}
+
+div#logo {
+
+}
+
+header h1 {
+	font-family: 'PT Serif', serif;
+	color: #B2BDAB;	
+	font-size: 2em;
+	font-weight: 900;
+	padding: 1em 0.5em;
+}
+
+div#main_wrapper {
+	margin: 0;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.gallery {
+	padding: 0.5em 1em;
+	background-color: #EDF0F2;
+	border: 1px solid #BDC0C2;
+}
+
+li.gallery + li.gallery {
+	margin: 1em 0;
+}
+
+h3.gallery_name {
+	font-family: 'PT Serif', serif;
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0.5em 0;
+	border-bottom: 1px solid #B2BDAB;
+}
+
+h3.gallery_name a {
+	font-weight: 700;
+	color: #B2BDAB;			
+}
+li.exhibition {
+	font-family: 'Quando', serif;
+	margin: 2em 0 2em;
+	line-height: 1.7em;
+}
+
+li.exhibition + li.exhibition {
+	padding: 1em 0 0;
+	border-top: 1px solid #B2BDAB;
+}
+
+div.gallery_image {
+	display: none;
+}
+
+div.exhibition_image {
+	display: inline-block;
+	width: 200px;
+}
+
+div.exhibition_info {
+	display: inline-block;
+	width: 750px;
+	margin: 0 0 0 2em;
+	vertical-align: top;
+	min-height: 200px;
+}
+
+h4.exhibition_name {
+	font-weight: 300;
+	font-size: 1.5em;
+	display: inline-block;	
+	line-height: 1.5em;
+	width: 750px;
+	margin: 0 0 .5em 0;
+}
+
+h4.exhibition_name a:hover {
+	color: #CC4422;
+	border-bottom: 1px solid #CC4422;
+}
+
+p.exhibition_summary {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.6em;
+	margin: 0 0 2em 0;
+}
+
+div.dates {
+	position: relative;
+	display: inline-block;
+	width: 600px;
+	height: 2em;
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0;
+}
+
+div.bar {
+	position: absolute;
+	top: 1.5em;
+	left: 0;
+	width: 600px;
+	height: 1.5em;
+	border: 1px solid #B2BDAB;
+	-moz-border-radius: .75em;
+	-webkit-border-radius: .75em;
+	border-radius: .75em;
+	background-color: #B2BDAB;
+}
+
+div.today {
+	position: absolute;
+	top: -1px;
+	/*left: ;*/
+	width: 1.5em;
+	height: 1.5em;
+	border: 1px solid #CC4422;
+	-moz-border-radius: .75em;
+	-webkit-border-radius: .75em;
+	border-radius: .75em;
+	background-color: #CC4422;
+}
+
+div.start_date {
+	position: absolute;
+	top: -.5em;
+	left: 0em;
+	height: 1em;
+}
+
+div.end_date {
+	position: absolute;
+	top: -.5em;
+	right: 0;
+	height: 1em;
+}
+
+div.remaining_days {
+	color: #EDF0F2;
+	position: absolute;
+	top: 1.6em;
+	right: 0;
+	width: 11em;
+	height: 1em;
+	line-height: 1.5em;
+}
+
+span.unit {
+	color: #EDF0F2;
+}
+
+div#contact {
+	margin: 0.5em 1em;
+}
+
