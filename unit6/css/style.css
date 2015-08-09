@@ -1,0 +1,512 @@
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+/* Header */
+
+header {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(180, 180, 180, 0.9);
+}
+
+header.main_page {
+	background-color: rgba(33, 33, 33, 0.2);
+}
+
+.header_wrapper, .subheader_wrapper {
+	width: 60rem;
+}
+.header_wrapper {
+	margin: 10px auto;	
+	height: 50px;
+}
+
+/* Subheader */
+
+.subheader_background {
+	width: 100%;
+	background-color: rgba(140, 140, 140, 0.9);
+	border-top: 1px solid #FFFFFF;
+	height: 40px;
+}
+
+.subheader_wrapper {
+	margin: 0 auto 0px;	
+	height: 40px;
+}
+
+.header_menu {
+	display: block;
+	float: left;
+	height: 40px;
+}
+
+.header_menu a {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	float: left;
+	font-size: 1.2rem;
+	font-weight: 100;
+	padding: 0 1.5rem .5rem 1.5rem;
+	line-height: 40px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 40px;
+}
+
+.header_menu a {
+	border-left: 1px solid #FFFFFF;
+}
+
+.header_menu a.selected {
+	background-color: rgba(255,94,15, 0.7);
+}
+
+.header_menu a:hover {
+	background-color: rgba(255,94,15, 0.7);
+}
+
+h1.sitename {
+	display: block;
+	width: 20rem;
+	float: left;	
+}
+
+h1.sitename a {
+	font-family: 'Kaushan Script', cursive;
+	color: #388E3C;
+	font-size: 2rem;
+	line-height: 3rem;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/* Contact us links */
+
+.contactus_links {
+	width: 250px;
+	float: right;
+	display: block;
+}
+
+.contactus_links a {
+	display: inline-block;
+	margin: 0 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 48px;
+	width: 48px;
+}
+
+.contactus_links a img {
+}
+
+/* Main page */
+
+.main_wrapper {
+	position: relative;
+	z-index: 2;
+	margin: 0 auto;
+	width: 60rem;
+	max-width: 960px;
+}
+
+.heading {
+	font-family: 'Kaushan Script', cursive;
+	margin-bottom: 8rem;
+	color: #388E3C;
+	position: relative;
+	margin-top: 30%;
+	font-size: 6rem;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #212121;
+}
+
+.main_menu {
+	width: 45rem;
+	margin: 0 auto;
+}
+
+.main_menu a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	display: block;
+	float: left;
+	margin: 0 1rem;
+	padding: .8rem 1.2rem .3em;
+	background-color: rgba(33, 33, 33, 0.2);
+	line-height: 1.8rem;
+	font-size: 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	color: #EEEEEE;
+	border: solid 1px #EEEEEE;
+	border-radius: .5rem;
+}
+
+.main_menu a:hover {
+	background-color: rgba(255,94,15, 0.7);
+}
+
+/*Blog list*/
+
+div.main_header {
+	margin-top: 150px;
+	text-align: left;
+	line-height: 1.6rem;
+}
+
+div.main_header h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	color: #565656;
+}
+
+div.main_header h1 a {
+	color: #565656;
+}
+
+
+div.main_header p {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+ul.citylist {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+li.city {
+	width: 18rem;
+	height: 18rem;
+	margin: 1.3rem;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+
+li.city:nth-child(3n+1) {
+	margin: 1.3rem 1.3rem 1.3rem 0;
+}
+
+li.city:nth-child(3n) {
+	margin: 1.3rem 0 1.3rem 1.3rem;
+}
+
+li.city img {
+	min-height: 18rem;
+	min-width: 18rem;
+}
+
+a.city_name {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	background-color: rgba(33, 33, 33, 0.6);
+	line-height: 3rem;
+	font-size: 1.3rem;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+a.city_name:hover {
+	background-color: rgba(255,94,15, 0.7);	
+}
+
+/* Blogs */
+
+div.bloglist_content {
+	text-align: left;
+	line-height: 1.6rem;
+}
+
+.submit_entry_button {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	float: right;
+	height: 3rem;
+	width: 15rem;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	font-weight: 100;
+	text-align: center;
+	background-color: rgba(33, 33, 33, 0.3);
+	padding: .5rem;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: solid 1px #FFFFFF;
+	border-radius: .5rem;
+}
+
+.submit_entry_button:hover {
+	background-color: rgba(255,94,15, 0.7);	
+}
+
+ul.bloglist {
+	margin: 20px 0 0;
+
+}
+
+li.blog {
+	width: 100%;
+	position: relative;
+	padding: 2rem 0;
+	vertical-align: top;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+li.blog div.blog_image {
+	float: left;
+	width: 18rem;
+	margin-right: 2rem;
+}
+
+li.blog div.blog_image img {
+	min-width: 18rem;
+}
+
+li.blog div.blog_entry {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	color: #232323;
+	float: left;
+	width: 38rem;
+}
+
+li.blog div.blog_entry .blog_title {
+	font-weight: 400;
+	font-size: 1.5rem;
+	display: block;
+	color: #232323;
+	margin-bottom: 1rem;
+}
+
+li.blog div.blog_entry .blog_metadata {
+	font-size: 1rem;
+	font-weight: 100;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+li.blog div.blog_entry .blog_metadata span {
+	margin-right: 2rem;
+	font-weight: 400;
+}
+
+
+li.blog div.blog_entry .blog_excerpt {
+	margin-bottom: 1rem;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	line-height: 1.4rem;
+}
+
+li.blog div.blog_entry .readmore_link {
+	font-weight: 400;
+	color: #232323;
+	text-transform: uppercase;
+
+}
+
+li.blog div.blog_entry a:hover {
+	color: rgb(255,94,15);
+}
+
+/* Blog entry */
+
+div.blog_image_large {
+	min-width: 60rem;
+}
+
+div.blog_image_large img {
+	width: 960px;
+}
+
+div.blog_main {
+	width: 100%;
+	margin-top: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: #232323;
+}
+
+div.blog_entry {
+	width: 45rem;
+	float: left;
+	margin-right: 2rem;
+}
+
+div.blog_entry .blog_title {
+	font-weight: 400;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+div.blog_entry .blog_date {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+div.blog_entry .blog_text {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	line-height: 1.7rem;	
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+div.blog_entry .blog_text p {
+	margin-bottom: 1.7rem;
+}
+
+div.blog_author {
+	width: 13rem;
+	float:left;
+}
+
+div.blog_author .author_photo {
+	width: 13rem;
+	height: 13rem;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+
+div.blog_author .author_photo img {
+	width: 13rem;
+}
+
+div.blog_author h2 {
+	display: inline-block;
+	font-weight: 100;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-right: 1rem;
+	margin-bottom: .5rem;
+}
+
+div.blog_author .author_name {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+div.blog_author .author_bio {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	line-height: 1.4rem;	
+	font-size: 0.8rem;
+}
+
+div.comment_main {
+	width: 100%;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	font-family: 'Roboto', sans-serif;
+	color: #232323;
+	border-top: solid 1px #EEEEEE;
+	line-height: 1.7rem;
+}
+
+div.comment_main h2 {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+
+div.comment_main li.comment {
+	line-height: 1.6rem;	
+	font-size: 1rem;
+	margin: 1rem 0;	
+	padding: 0 0 1rem 0;
+	border-bottom: solid 1px #EEEEEE;
+}
+
+div.comment_main li.comment .comment_metadata {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+}
+
+div.comment_main li.comment .comment_metadata .comment_username{
+	margin-right: 1rem;
+}
+
+div.comment_main li.comment .comment_metadata .comment_date{
+	font-weight: 100;
+}
+
+div.comment_main li.comment .comment_text {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
+
+/* About us */
+
+div.aboutus_image_large {
+	min-width: 60rem;
+}
+
+div.aboutus_image_large img {
+	width: 960px;
+}
+
+div.aboutus_main {
+	width: 100%;
+	margin-top: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: #232323;
+}
+
+div.aboutus_main .aboutus_text {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	line-height: 1.7rem;	
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+div.aboutus_main .aboutus_text p {
+	margin-bottom: 1.7rem;
+}
+
+
+/* Full page video */
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
